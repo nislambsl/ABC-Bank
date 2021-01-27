@@ -1,5 +1,15 @@
 body{
     padding: 100px;
+    font-family: 'Kanit', sans-serif;
+    background-color: lightblue;
+}
+marquee{
+    font-size: x-large;
+    color: salmon;
+
+}
+sup{
+    color: orange;
 }
 .submit-area{
             margin-top: 50px;
@@ -7,3 +17,35 @@ body{
             box-shadow: 5px 5px 10px gray;
             padding: 40px;
 }
+#transaction-area{
+    display: none;
+}
+.deposit{
+    background-color: slateblue;
+  
+}
+.withdraw{
+    background-color: lightsalmon;
+   
+}
+.balance{
+    background-color: orange;
+    
+}
+.status{
+    margin: 0px 20px;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.half-width{
+    padding: 50px;
+    margin-left: 50px;
+    float: left;
+    width: 40%;
+}
+.ac-holder{
+    height: 350px;
+}
+.half-width img{width: 35%;}
